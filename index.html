@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe AI (Minimax)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Tic-Tac-Toe – AI Using Minimax</h2>
+
+<div class="controls">
+    <label>
+        <input type="radio" name="first" value="player" checked>
+        Player First
+    </label>
+    <label>
+        <input type="radio" name="first" value="ai">
+        AI First
+    </label>
+    <button onclick="startGame()">Start / Restart</button>
+</div>
+
+<!-- 🏆 SCOREBOARD -->
+<p id="scoreBoard">
+    Human: <span id="humanScore">0</span>
+    &nbsp; | &nbsp;
+    AI: <span id="aiScore">0</span>
+</p>
+
+<div id="board"></div>
+
+<p id="status"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
